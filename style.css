@@ -9,3 +9,52 @@ h1 {
 footer p {
     font-size: 1.1em;
 }
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.timeline-section {
+    position: relative;
+    padding-left: 40px;
+    border-left: 1px solid #007bff; /* Vertical line color */
+}
+
+.timeline-year {
+    font-size: 1.5em;
+    color: #007bff;
+    margin-top: 20px;
+}
+
+.timeline-item {
+    position: relative;
+    margin-bottom: 20px;
+    padding-left: 20px;
+}
+
+.timeline-dot {
+    position: absolute;
+    left: -12px;
+    top: 6px;
+    width: 10px;
+    height: 10px;
+    background-color: #007bff;
+    border-radius: 50%;
+}
+
+.timeline-content {
+    padding-left: 20px;
+}
+
+.publication-title {
+    font-weight: bold;
+    color: #333;
+    text-decoration: none;
+}
+
+.publication-title:hover {
+    color: #0056b3;
+    text-decoration: underline;
+}
