@@ -63,3 +63,7 @@ footer p {
 .text-justify {
     text-align: justify !important;
   }
+
+  section {
+    scroll-margin-top: 80px;
+  }
