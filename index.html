@@ -19,8 +19,8 @@
   <nav id="cvNav" class="navbar navbar-expand-sm navbar-light bg-light sticky-top">
     <ul class="nav nav-tabs mx-auto">
       <li class="nav-item"><a class="nav-link active" href="#education">Education</a></li>
-      <li class="nav-item"><a class="nav-link" href="#employment">Academic Employment</a></li>
       <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+      <li class="nav-item"><a class="nav-link" href="#employment">Experience</a></li>
       <li class="nav-item"><a class="nav-link" href="#research-interests">Research Interests</a></li>
       <li class="nav-item"><a class="nav-link" href="#publications">Publications</a></li>
       <li class="nav-item"><a class="nav-link" href="#awards">Awards & Honors</a></li>
@@ -44,6 +44,15 @@
             <a href="Ali_Rezaei_CV.pdf" target="_blank" class="btn btn-outline-primary btn-sm">PDF CV</a>
           </p>
       </header>
+
+      <!-- Professional Summary -->
+        <section id="summary" class="mb-5">
+        <h2 class="text-primary">Professional Summary</h2>
+        <p class="text-justify">
+            Experienced in high-performance classical simulation of quantum computing and TCAD-based nanoelectronic device modelling, with a strong track record in developing, maintaining, and optimizing scalable simulation software across quantum, semiconductor, and superconducting domains — from quantum circuit emulators to NEGF-based solvers for nanoscale transistors.
+        </p>
+        </section>
+
 
       <!-- Education -->
       <section id="education" class="mb-5">
@@ -75,9 +84,24 @@
           </ul>
       </section>
 
+      <!-- Skills -->
+      <section id="skills" class="mb-5">
+          <h2 class="text-primary">Skills</h2>
+          <ul class="list-group">
+              <li class="list-group-item"><strong>Programming Languages:</strong> C, C++, Python, Fortran, Bash</li>
+              <li class="list-group-item"><strong>HPC & Quantum Toolchains:</strong> MPI, OpenMP, CUDA, SIMD intrinsics, Slurm, QuEST, QuESTlink, cuQuantum, Qiskit</li>
+              <li class="list-group-item"><strong>Performance & Profiling:</strong> Intel VTune, Memory Latency Checker, PCM, Valgrind, Linux perf</li>
+              <li class="list-group-item"><strong>DevOps & Build:</strong> Git (+CI/CD), CMake, Catch2/CTest, Spack, Conda, Docker, Kubernetes</li>
+              <li class="list-group-item"><strong>Scientific Tools:</strong> MATLAB, GNU Octave, Wolfram Mathematica</li>
+              <li class="list-group-item"><strong>EDA / TCAD Toolchains:</strong> Synopsys Sentaurus, Silvaco Atlas, QuantumATK/QTX, OMEN/NEMO</li>
+              <li class="list-group-item"><strong>Scientific Libraries:</strong> Eigen, LAPACK/BLAS, OpenBLAS, ARPACK++, SuperLU, Quadpack, GMM (GetFEM), SciPy, NumPy, pandas, SymPy, matplotlib</li>
+              <li class="list-group-item"><strong>Personal:</strong> Quick learner, strong communicator, collaborative, problem-solver, detail-oriented, adaptable</li>
+          </ul>
+      </section>
+
       <!-- Academic Employment -->
       <section id="employment" class="mb-5">
-          <h2 class="text-primary">Academic Employment</h2>
+          <h2 class="text-primary">Experience</h2>
           <ul class="list-group">
               <li class="list-group-item">
                   <strong>Research Associate</strong>, University of Edinburgh, UK — Feb 2024 – Present<br>
@@ -87,7 +111,7 @@
                       <li>Low-level tuning: redesigned state-vector data layout, intrinsic SIMD (SSE2/AVX2/AVX-512) kernels, cache blocking, FMA, loop unrolling, and software prefetching.</li>
                       <li>NUMA-aware execution: locality-sensitive task scheduler, thread pinning, and novel memory placement strategy that nearly eliminates remote-access penalties and improves effective bandwidth.</li>
                       <li>Micro-architectural profiling: located hotspots and memory-bandwidth limits with Intel VTune, Memory Latency Checker, Intel PCM, and Linux perf; insights fed back into the kernel design.</li>
-                      <li>Under implementation: advanced memory tiering with fast NVMe SSD + CXL. MPI optimization and accelerator orchestration across multi-GPU (and FPGA) back-ends for scalable simulation on heterogeneous (CPU-GPU) clusters. Circuit-knitting techniques to push classical simulations.</li>
+                      <li>Under implementation: advanced memory tiering with fast NVMe SSD + CXL. MPI optimization and accelerator orchestration across multi-GPU (and FPGA) back-ends for scalable simulation on heterogeneous (CPU-GPU) clusters. Compression, and Circuit-knitting techniques to push classical simulations.</li>
                   </ul>
               </li>
               <li class="list-group-item">
@@ -106,7 +130,7 @@
                   <ul class="mt-2">
                       <li>Analytical & numerical investigation of quantum transport properties (non-equilibrium and spin)
                           in superconductor–ferromagnet (and –antiferromagnet) proximity-coupled heterostructures.</li>
-                      <li>Developed numerical packages (Fortran, MATLAB, Python) utilizing the Eilenberger/Usadel quasiclassical Green’s function methods and quantum circuit theory (Nazarov).</li>
+                      <li>Developed numerical packages utilizing the Eilenberger/Usadel quasiclassical Green’s function methods and quantum circuit theory (Nazarov).</li>
                       <li>Studied multiple phenomena in superconducting hybrids, including:</li>
                       <ul>
                           <li>Generation, control, and detection of equal-spin triplet Cooper pairs in a spin-valve (S/FM) setup.</li>
@@ -126,25 +150,12 @@
 
       
 
-      <!-- Skills -->
-      <section id="skills" class="mb-5">
-          <h2 class="text-primary">Skills</h2>
-          <ul class="list-group">
-              <li class="list-group-item"><strong>Programming Languages:</strong> C, C++, Python, Fortran 90/95, Bash</li>
-              <li class="list-group-item"><strong>HPC & Quantum Toolchains:</strong> MPI, OpenMP, CUDA, SIMD intrinsics, Slurm, QuEST, QuESTlink, cuQuantum, Qiskit</li>
-              <li class="list-group-item"><strong>Performance & Profiling:</strong> Intel VTune, Memory Latency Checker, PCM, Valgrind, Linux perf</li>
-              <li class="list-group-item"><strong>DevOps & Build:</strong> Git (+CI/CD), CMake, Catch2/CTest, Spack, Conda, Docker, Kubernetes</li>
-              <li class="list-group-item"><strong>Scientific Tools:</strong> MATLAB, GNU Octave, Wolfram Mathematica</li>
-              <li class="list-group-item"><strong>Scientific Libraries:</strong> Eigen, LAPACK/BLAS, OpenBLAS, ARPACK++, SuperLU, Quadpack, GMM (GetFEM), SciPy, NumPy, pandas, SymPy, matplotlib</li>
-              <li class="list-group-item"><strong>EDA / TCAD Toolchains:</strong> Synopsys Sentaurus, Silvaco Atlas, QuantumATK/QTX, OMEN/NEMO</li>
-              <li class="list-group-item"><strong>Personal:</strong> Quick learner, strong communicator, collaborative, problem-solver, detail-oriented, adaptable</li>
-          </ul>
-      </section>
+      
 
       <!-- Research Interests -->
       <section id="research-interests" class="mb-5">
           <h2 class="text-primary">Research Interests</h2>
-          <p>
+          <p class="text-justify">
               Quantum Computing & Algorithms, Quantum Simulation, Nano-/Quantum Device Modelling, TCAD Engineering, Quantum Transport,
               High-Performance Computing, ML for Physical Modelling, Condensed-Matter Theory
           </p>
@@ -155,6 +166,16 @@
             <h2 class="text-primary mb-4">Publications</h2>
             
             <!-- Timeline for 2024 -->
+            <div class="timeline-year">2025</div>
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <a href="https://arxiv.org/abs/2506.09198" target="_blank" class="publication-title">
+                        Low-Level and NUMA-Aware Optimization for High-Performance Quantum Simulation
+                    </a>
+                    <p>arXiv preprint - arXiv.2506.09198 (2025)</p>
+                </div>
+            </div>
             <div class="timeline-year">2024</div>
             <div class="timeline-item">
                 <div class="timeline-dot"></div>
@@ -346,8 +367,14 @@
       <section id="certifications" class="mb-5">
           <h2 class="text-primary">Certifications</h2>
           <ul class="list-group">
-                <li class="list-group-item">Quantum Information (IBM Quantum Learning - <a href="https://www.credly.com/badges/c096b5ba-f161-4da1-8ba8-172087dee6d1/linked_in_profile">badge</a>)</li>
-              <li class="list-group-item"><strong>Advanced Data Science with IBM Specialization</strong>
+              <li class="list-group-item">IBM Qunatum
+                  <ul class="mt-1">
+                      <li><a href="https://www.credly.com/earner/earned/badge/cade8cfa-336c-4987-a7b2-2983bc4243b3">Variational Algorithm Design</a></li>
+                      <li><a href="https://www.credly.com/earner/earned/badge/ae892615-5336-4a68-be96-dd48b6a69155">Quantum Algorithms</a></li>
+                      <li><a href="https://www.credly.com/badges/c096b5ba-f161-4da1-8ba8-172087dee6d1/linked_in_profile">Quantum Information</a></li>
+                  </ul>
+              </li>
+              <li class="list-group-item">Advanced Data Science with IBM Specialization
                   <ul class="mt-1">
                       <li><a href="https://www.credly.com/badges/a0d62ad3-370e-41c6-8b13-d91184e720ad/public_url">Fundamentals of Scalable Data Science</a></li>
                       <li><a href="https://www.credly.com/badges/c2be20e7-e85a-47db-924e-ddfadc0d3aa2/public_url">Advanced Machine Learning and Signal Processing</a></li>
