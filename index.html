@@ -2,417 +2,408 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ali Rezaei – CV</title>
-    
-    <!-- Bootstrap CSS -->
-    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Ali Rezaei – CV</title>
 
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="style.css">
+  <!-- Bootstrap CSS -->
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet"/>
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css"/>
 </head>
 
 <body data-spy="scroll" data-target="#cvNav" data-offset="80">
 
-  <!-- Navigation Tabs -->
+  <!-- Navigation Tabs (order matches PDF) -->
   <nav id="cvNav" class="navbar navbar-expand-sm navbar-light bg-light sticky-top">
     <ul class="nav nav-tabs mx-auto">
-      <li class="nav-item"><a class="nav-link active" href="#education">Education</a></li>
+      <li class="nav-item"><a class="nav-link active" href="#header">Home</a></li>
+      <li class="nav-item"><a class="nav-link" href="#summary">Summary</a></li>
       <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
-      <li class="nav-item"><a class="nav-link" href="#employment">Experience</a></li>
-      <li class="nav-item"><a class="nav-link" href="#research-interests">Research Interests</a></li>
-      <li class="nav-item"><a class="nav-link" href="#publications">Publications</a></li>
-      <li class="nav-item"><a class="nav-link" href="#awards">Awards & Honors</a></li>
+      <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
+      <li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li>
+      <li class="nav-item"><a class="nav-link" href="#interests">Interests</a></li>
+      <li class="nav-item"><a class="nav-link" href="#distinctions">Distinctions</a></li>
       <li class="nav-item"><a class="nav-link" href="#certifications">Certifications</a></li>
-      <li class="nav-item"><a class="nav-link" href="#references">References</a></li>
+      <li class="nav-item"><a class="nav-link" href="#publications">Publications</a></li>
     </ul>
   </nav>
 
   <div class="container">
-      <!-- Header -->
-      <header class="text-center bg-light p-4 mb-4">
-          <h1 class="display-4">Ali Rezaei (Dr. rer. nat.)</h1>
-          <p>ICSA, School of Informatics – University of Edinburgh, EH8 9AB, UK</p>
-          <p><a href="mailto:ali.rezaei@ed.ac.uk">ali.rezaei@ed.ac.uk</a> </p>
-          <p>
-            <a href="https://www.linkedin.com/in/ali-rezaei-dr-rer-nat-84385a57/" class="btn btn-primary btn-sm">LinkedIn</a>
-            <a href="https://www.researchgate.net/profile/Ali-Rezaei-3" class="btn btn-secondary btn-sm">ResearchGate</a>
-            <a href="https://scholar.google.com/citations?user=iq82UioAAAAJ&hl" class="btn btn-success btn-sm">Google Scholar</a>
-            <a href="https://systems-nuts.com" class="btn btn-info btn-sm">Systems-Nuts</a>
-            <a href="https://www.roarq.cs.ox.ac.uk/people/" class="btn btn-dark btn-sm">RoaRQ</a>
-            <a href="Ali_Rezaei_CV.pdf" target="_blank" class="btn btn-outline-primary btn-sm">PDF CV</a>
-          </p>
-      </header>
 
-      <!-- Professional Summary -->
-        <section id="summary" class="mb-5">
-        <h2 class="text-primary">Professional Summary</h2>
-        <p class="text-justify">
-            Experienced in high-performance classical simulation of quantum computing and TCAD-based nanoelectronic device modelling, with a strong track record of developing, maintaining, and optimizing scalable simulation software across quantum, semiconductor, and superconducting domains – from quantum circuit emulators to NEGF-based solvers for nanoscale transistors.
-        </p>
-        </section>
+    <!-- Header -->
+    <header id="header" class="text-center bg-light p-4 mb-4">
+      <h1 class="display-5">Ali Rezaei, Ph.D.</h1>
+      <p>Physics • Quantum Computing • HPC Engineering • Device Simulation • TCAD</p>
+      <p>Email: <a href="mailto:ali.rezaei@ed.ac.uk">ali.rezaei@ed.ac.uk</a></p>
+      <p>
+        Profiles:
+        <a href="https://www.linkedin.com/in/ali-rezaei-dr-rer-nat-84385a57/" target="_blank" rel="noopener">LinkedIn</a> |
+        <a href="https://scholar.google.com/citations?user=iq82UioAAAAJ&hl" target="_blank" rel="noopener">Google Scholar</a> |
+        <a href="https://www.researchgate.net/profile/Ali-Rezaei-3" target="_blank" rel="noopener">ResearchGate</a> |
+        <a href="https://www.roarq.cs.ox.ac.uk/people/" target="_blank" rel="noopener">RoaRQ Team</a> |
+        <a href="Ali_Rezaei_CV.pdf" target="_blank" rel="noopener">Online CV</a>
+      </p>
+    </header>
 
+    <!-- Summary -->
+    <section id="summary" class="mb-5 justified">
+      <h2 class="text-primary">Summary</h2>
+      <ul>
+        <li>Physicist and research software engineer with 5+ years of experience in quantum simulation, high-performance computing (HPC), and nanoelectronic device modelling (TCAD).</li>
+        <li>Developer of scalable, high-performance simulation tools, including open-source tools such as QuEST (quantum circuit simulator) and NESS (NEGF-based TCAD framework).</li>
+        <li>Expert in performance-portable HPC, from low-level kernel optimisation to efficient algorithms and data structures. Proficient with profiling, cache-aware memory layouts, custom scheduling, MPI/OpenMP parallelisation, heterogeneous acceleration, and reproducible, containerised pipelines.</li>
+        <li>Experienced program manager of multi-year R&amp;D projects across academia and industry, with strengths in Agile leadership, milestone tracking, stakeholder coordination, and delivery planning.</li>
+      </ul>
+    </section>
 
-      <!-- Education -->
-      <section id="education" class="mb-5">
-          <h2 class="text-primary">Education</h2>
-          <ul class="list-group">
-              <li class="list-group-item">
-                  <strong>University of Urmia</strong>, Urmia, Iran<br>
-                  B.Sc. in Solid State Physics — Sep 2007 – Aug 2011
-              </li>
-              <li class="list-group-item">
-                  <strong>Institute for Advanced Studies in Basic Sciences (IASBS)</strong>, Zanjan, Iran<br>
-                  M.Sc. in Condensed Matter Physics — Sep 2012 – Apr 2015<br>
-                  <em>Thesis:</em>
-                  <a href="https://www.researchgate.net/publication/316881233_Thermoelectric_Properties_of_3D_Topological_Insulators_Effects_of_Gap_and_Hexagonal_Warping" target="_blank">
-                  Thermoelectric properties of 3D topological insulators: effects of the gap and hexagonal warping
-                  </a> <br>
-                  <em>Many-body Theory Group</em> (supervised by Dr. Saeed H. Abedinpour & Dr. Jahan Abouie)
-              </li>
-              <li class="list-group-item">
-                  <strong>University of Konstanz</strong>, Konstanz, Germany<br>
-                  Ph.D. (Dr. rer. nat.) in Condensed Matter Physics — Jan 2016 – Dec 2019<br>
-                  <em>Thesis:</em>
-                  <a href="https://kops.uni-konstanz.de/entities/publication/58f3012f-1656-49d4-97b6-407c1f5ef30d" target="_blank">
-                  Non-equilibrium and spin transport in hybrids of superconductors and magnets
-                  </a> (magna cum laude)<br>
-                  <em>Quantum Transport Group</em> (supervised by Prof. Dr. Wolfgang Belzig)
-              </li>
-          </ul>
-      </section>
+    <!-- Skills -->
+    <section id="skills" class="mb-5 justified">
+      <h2 class="text-primary">Skills</h2>
+      <ul>
+        <li><strong>Programming Languages:</strong> C, C++, Python, Fortran</li>
+        <li><strong>HPC &amp; Parallelism:</strong> MPI, OpenMP, CUDA, SIMD (SSE/AVX/AVX-512), hybrid CPU-GPU execution, NUMA-aware optimisation, hardware-aware tuning, Slurm</li>
+        <li><strong>Profiling &amp; Performance:</strong> Intel VTune, Memory Latency Checker, Intel PCM, Valgrind, Linux perf, likwid</li>
+        <li><strong>Quantum SDKs &amp; Libraries:</strong> QuEST (co-developer), Qiskit, Pennylane, cuQuantum, QuESTlink</li>
+        <li><strong>Scientific Toolkits:</strong> NumPy, SciPy, SymPy, Pandas, MATLAB, Mathematica, JupyterLab, Gnuplot, VTK, ParaView</li>
+        <li><strong>Numerical:</strong> Coupled PDE solvers, finite-difference / finite-volume / finite-element methods, NEGF formalism, linear algebra</li>
+        <li><strong>EDA / TCAD:</strong> NESS (co-developer), Synopsys Sentaurus, Silvaco Atlas, QuantumATK, OMEN, NEMO</li>
+        <li><strong>DevOps &amp; Build Systems:</strong> Linux (HPC CLI, Bash), Git (CI/CD), Docker, Kubernetes, Spack, Conda, CMake, Make, Catch2/CTest</li>
+        <li><strong>IDEs &amp; Editors:</strong> VS Code, Vim, Visual Studio</li>
+        <li><strong>Project &amp; Team Management:</strong> Jira, Gantt charts, MS Project, Agile/Scrum workflows, reporting, documentation</li>
+        <li><strong>Personal:</strong> Analytical, detail-driven, strong problem-solver, effective communicator and team contributor</li>
+      </ul>
+    </section>
 
-      <!-- Skills -->
-      <section id="skills" class="mb-5">
-          <h2 class="text-primary">Skills</h2>
-          <ul class="list-group">
-              <li class="list-group-item"><strong>Programming Languages:</strong> C, C++, Python, Fortran, Bash</li>
-              <li class="list-group-item"><strong>HPC & Quantum Toolchains:</strong> MPI, OpenMP, CUDA, SIMD intrinsics, Slurm, QuEST (co-dev.), QuESTlink, cuQuantum, Qiskit, Pennylane</li>
-              <li class="list-group-item"><strong>Performance & Profiling:</strong> Intel VTune, Memory Latency Checker, PCM, Valgrind, Linux perf, likwid</li>
-              <li class="list-group-item"><strong>DevOps & Build:</strong> Git (+CI/CD), CMake, Make, Catch2/CTest, Spack, Conda, Docker, Kubernetes</li>
-              <li class="list-group-item"><strong>Development Environments & Editors:</strong> VS Code, Vim, gdb</li>
-              <li class="list-group-item"><strong>Scientific Tools:</strong> MATLAB, GNU Octave, Wolfram Mathematica, Gnuplot, JupyterLab, ParaView</li>
-              <li class="list-group-item"><strong>EDA / TCAD:</strong> NESS (co-dev.), Synopsys Sentaurus, Silvaco Atlas, QuantumATK/QTX, OMEN/NEMO</li>
-              <li class="list-group-item"><strong>Project Management:</strong> Agile/Waterfall, Gantt, Scrum/Kanban, WBS, stakeholder management, budgeting, RACI, and critical path.</li>
-              <li class="list-group-item"><strong>Personal:</strong> Quick learner, strong communicator, collaborative, problem-solver, detail-oriented, adaptable</li>
-          </ul>
-      </section>
+    <!-- Education -->
+    <section id="education" class="mb-5">
+      <h2 class="text-primary">Education</h2>
+      <ul class="list-group">
+        <li class="list-group-item">
+          <strong>University of Konstanz, Germany</strong><br/>
+          Ph.D. in Condensed Matter Physics (Dr. rer. nat.), <em>Magna cum laude</em><br/>
+          Thesis: <a href="https://kops.uni-konstanz.de/entities/publication/58f3012f-1656-49d4-97b6-407c1f5ef30d" target="_blank" rel="noopener">
+            Non-equilibrium and spin transport in hybrids of superconductors and magnets
+          </a><br/>
+          <a href="https://www.belzig.uni-konstanz.de" target="_blank" rel="noopener">Quantum Transport Group</a> – Supervisor: Prof. Dr. Wolfgang Belzig<br/>
+          <span class="text-muted">01/2016 – 12/2019</span>
+        </li>
+        <li class="list-group-item">
+          <strong>Institute for Advanced Studies in Basic Sciences, Iran</strong><br/>
+          M.Sc. in Condensed Matter Physics<br/>
+          Thesis: <a href="https://www.researchgate.net/publication/316881233_Thermoelectric_Properties_of_3D_Topological_Insulators_Effects_of_Gap_and_Hexagonal_Warping" target="_blank" rel="noopener">Thermoelectric properties of 3D topological insulators</a><br/>
+          <a href="https://iasbs.ac.ir/~abedinpour/home.html" target="_blank" rel="noopener">Many-body Theory Group</a> – Supervisors: Dr. Saeed Abedinpour, Dr. Jahan Abouie<br/>
+          <span class="text-muted">09/2012 – 04/2015</span>
+        </li>
+        <li class="list-group-item">
+          <strong>University of Urmia, Iran</strong><br/>
+          B.Sc. in Solid State Physics<br/>
+          <span class="text-muted">09/2007 – 08/2011</span>
+        </li>
+      </ul>
+    </section>
 
-      <!-- Academic Employment -->
-      <section id="employment" class="mb-5">
-          <h2 class="text-primary">Experience</h2>
-          <ul class="list-group">
-              <li class="list-group-item">
-                  <strong>Research Associate</strong>, University of Edinburgh, UK — Feb 2024 – Present<br>
-                  ICSA, EPCC & RoaRQ – Quantum Computing HPC (QuEST, C)
-                  <ul class="mt-2">
-                      <li>Co-developing <a href="https://github.com/QuEST-Kit/QuEST/blob/main/docs/v4.md" target="_blank" rel="noopener">QuEST v4</a> with a focus on optimisation prototyping and debunking performance bottlenecks through optimised algorithms that achieve several-fold speed-ups. Code available <a href="https://github.com/systems-nuts/QuEST-newDS/tree/New_DS_NUMA" target="_blank" rel="noopener">here</a>; upstream merge pending completion of integration testing.</li>
-                      <li>Low-level tuning: redesigned state-vector data layout, intrinsic SIMD (SSE2/AVX2/AVX-512) kernels, cache blocking, FMA, loop unrolling, and software prefetching.</li>
-                      <li>NUMA-aware execution: locality-sensitive task scheduler, thread pinning, and novel memory placement strategy that nearly eliminates remote-access penalties and improves effective bandwidth.</li>
-                      <li>Micro-architectural profiling: located hotspots and memory-bandwidth limits with Intel VTune, Memory Latency Checker, Intel PCM, and Linux perf; insights fed back into the kernel design.</li>
-                      <li>Under implementation: advanced memory tiering with fast NVMe SSD + CXL. MPI optimization and accelerator orchestration across multi-GPU (and FPGA) back-ends for scalable simulation on heterogeneous (CPU-GPU) clusters. Compression, and Circuit-knitting techniques to push classical simulations.</li>
-                  </ul>
-              </li>
-              <li class="list-group-item">
-                  <strong>Research Associate</strong>, University of Glasgow, UK — Aug 2020 – Dec 2023<br>
-                  Device Modelling Group – TCAD Software Developer (NESS, C++)
-                  <ul class="mt-2">
-                      <li>Co-developed, optimized, and extended a Non-Equilibrium Green’s Function (NEGF) quantum transport solver for both effective-mass and k·p Hamiltonians.</li>
-                      <li>Developed high-performance numerical solvers for coupled PDE systems, including Poisson–Schrödinger and quantum transport equations, using finite-difference and finite-volume methods; implemented workflows for quantum tunnelling, statistical variability, and first-principles effective-mass extraction; integrated ML-accelerated NEGF for device-scale simulation of Josephson junctions and silicon spin qubits.</li>
-                      <li>Designed next-generation Si and III–V devices including 3 nm GAA NSFETs, FinFET/planar MOSFETs, and resonant-tunnelling diodes for PUFs with Synopsys Sentaurus (SDEVICE), QuantumATK/QTX, Silvaco Atlas, and OMEN/NEMO – validating performance against industry roadmaps.</li>
-                      <li>Led CI/CD and HPC-scaling initiatives: migrated codebase to Git, containerized workflows, implemented unit testing, and tuned hybrid MPI + OpenMP parallelism.</li>
-                      <li>Produced comprehensive documentation, tutorials and demos. Provided technical software support to academic and industrial partners, and onboarded/mentored junior developers.</li>
-                  </ul>
-              </li>
-              <li class="list-group-item">
-                  <strong>Ph.D. Researcher</strong>, University of Konstanz, Germany — Jan 2016 – Dec 2019
-                  <ul class="mt-2">
-                      <li>Analytical & numerical investigation of quantum transport properties (non-equilibrium and spin)
-                          in superconductor–ferromagnet (and –antiferromagnet) proximity-coupled heterostructures.</li>
-                      <li>Developed numerical packages utilizing the Eilenberger/Usadel quasiclassical Green’s function methods and (Nazarov's) quantum circuit theory – involved solving integro-differential and elliptic PDEs under self-consistent boundary conditions to capture mesoscopic transport behavior.</li>
-                      <li>Studied multiple phenomena in superconducting hybrids, including:</li>
-                      <ul>
-                          <li>Generation, control, and detection of equal-spin triplet Cooper pairs in a spin-valve (S/FM) setup.</li>
-                          <li>Spin-flip–enhanced thermoelectricity in S/FM devices.</li>
-                          <li>Induced spin-splitting in S/AFM hybrids.</li>
-                      </ul>
-                      <li>TA:</li>
-                      <ul>
-                          <li>Quantum Field Theory of Nonequilibrium States (SS 2019)</li>
-                          <li>Advanced Quantum Theory & Electrodynamics (WS 2017/18)</li>
-                          <li>Advanced Condensed Matter Physics (WS 2016/17)</li>
-                      </ul>
-                  </ul>
-              </li>
-          </ul>
-      </section>
+    <!-- Experience -->
+    <section id="experience" class="mb-5 justified">
+      <h2 class="text-primary">Experience</h2>
 
-      
+      <div class="mb-4">
+        <strong>Quantum HPC Researcher - QuEST (C/C++)</strong>, ICSA/EPCC, University of Edinburgh, UK
+        <span class="text-muted"> — 02/2024 – Present</span>
+        <ul class="mt-2">
+          <li>Implemented a high-performance extension for <a href="https://github.com/QuEST-Kit/QuEST/blob/main/docs/v4.md" target="_blank" rel="noopener">QuEST v4</a>, featuring a new data structure, NUMA-aware design, AVX-512 vectorisation, cache blocking, fused multiply-add, prefetching, and loop unrolling</li>
+          <li>Developed a custom task scheduler with memory placement and core pinning, minimising inter-socket latency</li>
+          <li>Utilised microarchitectural profilers to identify bottlenecks and iteratively tune performance</li>
+          <li>Achieved up to 6.5x speedups in quantum circuit benchmarks on multi-socket CPUs (<a href="https://arxiv.org/pdf/2506.09198" target="_blank" rel="noopener">preprint</a>)</li>
+          <li>Published open-source code (<a href="https://github.com/systems-nuts/QuEST-newDS/tree/New_DS_NUMA" target="_blank" rel="noopener">repo</a>). Rigorous benchmarking and integration testing in progress, ensuring reliable performance validation across a range of CPU platforms</li>
+          <li>Integrating memory tiering (NVMe/CXL), MPI scaling, hybrid CPU-GPU execution, memory compression, and circuit-knitting for enhanced scalability and efficiency</li>
+          <li>Supervised 4 MSc/PhD researchers on simulator workflows, debugging practices, and core module development</li>
+          <li>Coordinated delivery across multi-partner teams using Jira and Gantt charts. Led stakeholder-facing reporting (EPSRC, RoaRQ, NQCC, Quantum Motion), feedback cycles, and roadmap planning</li>
+        </ul>
+      </div>
 
-      
+      <div class="mb-4">
+        <strong>TCAD Software Developer - NESS (C++)</strong>, Device Modelling Group, University of Glasgow, UK
+        <span class="text-muted"> — 08/2020 – 12/2023</span>
+        <ul class="mt-2">
+          <li>Extended the <a href="https://www.gla.ac.uk/research/az/devmod/software/" target="_blank" rel="noopener">NESS</a> TCAD simulator with a scalable NEGF-based quantum transport solver (effective-mass and k.p Hamiltonians) for coupled PDEs (e.g., Poisson–Schrödinger)</li>
+          <li>Designed algorithms for quantum tunnelling, statistical variability, effective-mass extraction from ab-initio bands</li>
+          <li>Incorporated ML-accelerated NEGF model, achieving 60% convergence speedup while preserving accuracy</li>
+          <li>Deployed simulation workflows for NSFETs, FinFETs, planar MOSFETs, and resonant tunnelling diodes. Validated results against IRDS projections using industry-standard TCAD tools</li>
+          <li>Optimised for HPC with hybrid MPI/OpenMP parallelism, Docker containers, Git migration, CI/CD pipelines, and unit testing</li>
+          <li>Wrote papers, internal documentation, and user tutorials. Supported proposal writing and technical planning</li>
+          <li>Managed Agile delivery, and stakeholder reporting for academic–industry collaborations. Coordinated a 10-person team across the codebase and simulation workflows</li>
+        </ul>
+      </div>
 
-      <!-- Research Interests -->
-      <section id="research-interests" class="mb-5">
-          <h2 class="text-primary">Research Interests</h2>
-          <p class="text-justify">
-              Quantum Computing & Algorithms, Quantum Simulation, Nano-/Quantum Device Modelling, TCAD Engineering, Quantum Transport,
-              High-Performance Computing, ML for Physical Modelling, Condensed-Matter Theory
-          </p>
-      </section>
+      <div class="mb-3">
+        <strong>Ph.D. Candidate</strong>, University of Konstanz, Germany
+        <span class="text-muted"> — 01/2016 – 12/2019</span>
+        <ul class="mt-2">
+          <li>Investigated quantum transport in proximity-coupled superconductor–ferromagnet hybrid devices. Published 3 peer-reviewed papers, contributing to:
+            <ul>
+              <li>Triplet Cooper pair generation and control in S/FM spin-valve structures (first theoretical proposal)</li>
+              <li>Spin-flip enhanced thermoelectric effects in S/FM junctions (predicted 5x thermopower boost)</li>
+              <li>Spin-splitting induced via antiferromagnetic interfaces in superconductors (first non-FM approach)</li>
+            </ul>
+          </li>
+          <li>Coded Fortran solvers for quasiclassical Green’s function methods (Eilenberger/Usadel formalism, Nazarov’s quantum circuit theory), solving coupled PDEs with self-consistent boundary conditions</li>
+          <li>Teaching Assistant for graduate courses:
+            <ul>
+              <li>Quantum Field Theory of Nonequilibrium States</li>
+              <li>Advanced Quantum Theory and Electrodynamics</li>
+              <li>Advanced Condensed Matter Physics</li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </section>
 
-      <!-- Publications -->
-      <section id="publications" class="timeline-section">
-            <h2 class="text-primary mb-4">Publications</h2>
-            
-            <!-- Timeline for 2025 -->
-            <div class="timeline-year">2025</div>
-            <div class="timeline-item">
-                <div class="timeline-dot"></div>
-                <div class="timeline-content">
-                    <a href="https://arxiv.org/abs/2506.09198" target="_blank" class="publication-title">
-                        Low-Level and NUMA-Aware Optimization for High-Performance Quantum Simulation
-                    </a>
-                    <p>arXiv preprint - arXiv.2506.09198 (2025)</p>
-                </div>
-            </div>
-            <div class="timeline-item">
-                <div class="timeline-dot"></div>
-                <div class="timeline-content">
-                    <a href="https://www.sciencedirect.com/science/article/pii/S0038110125001170" target="_blank" class="publication-title">
-                        Mobility and intrinsic performance of silicon-based nanosheet FETs at 3 nm CMOS and beyond
-                    </a>
-                    <p>Solid-State Electronics 229, 109172 (2025)</p>
-                </div>
-            </div>
-            <div class="timeline-year">2024</div>
-            <div class="timeline-item">
-                <div class="timeline-dot"></div>
-                <div class="timeline-content">
-                    <a href="https://ieeexplore.ieee.org/abstract/document/10764758/" target="_blank" class="publication-title">
-                        Analysis of Random Discrete Dopants Embedded Nanowire Resonant Tunnelling Diodes for Generation of Physically Unclonable Functions
-                    </a>
-                    <p>2024 IEEE Transactions on Nanotechnology, 815-821</p>
-                </div>
-            </div>
-            <div class="timeline-item">
-                <div class="timeline-dot"></div>
-                <div class="timeline-content">
-                    <a href="https://ieeexplore.ieee.org/document/10733048" target="_blank" class="publication-title">
-                        Predictive Simulation of Nanosheet Transistors Including the Impact of Access Resistance
-                    </a>
-                    <p>2024 International Conference on Simulation of Semiconductor Processes and Devices (SISPAD)</p>
-                </div>
-            </div>
-            <div class="timeline-item">
-                <div class="timeline-dot"></div>
-                <div class="timeline-content">
-                    <a href="https://ieeexplore.ieee.org/abstract/document/10628880" target="_blank" class="publication-title">
-                        Unravelling the Impact of Random Dopant Fluctuations on Si-Based 3nm NSFET: A NEGF Analysis
-                    </a>
-                    <p>2024 IEEE 24th International Conference on Nanotechnology (NANO), 5-8</p>
-                </div>
-            </div>
-            <div class="timeline-item">
-                <div class="timeline-dot"></div>
-                <div class="timeline-content">
-                    <a href="https://iopscience.iop.org/article/10.1088/1402-4896/ad56d9/meta" target="_blank" class="publication-title">
-                        The study of electron mobility on ultra-scaled silicon nanosheet FET
-                    </a>
-                    <p>Physica Scripta 99 (7), 075410</p>
-                </div>
-            </div>
+    <!-- Interests -->
+    <section id="interests" class="mb-5 justified">
+      <h2 class="text-primary">Interests</h2>
+      <ul>
+        <li>Quantum computing: algorithms, circuit simulation, error correction, and software tooling</li>
+        <li>Nanoelectronic device modelling: TCAD, NEGF, quantum transport, and condensed matter theory</li>
+        <li>HPC: parallel programming, architecture-aware optimisation, and scalable CPU/GPU software</li>
+        <li>Technical leadership: planning, milestone delivery, stakeholder engagement, and cross-functional coordination</li>
+      </ul>
+    </section>
 
-            <!-- Timeline for 2023 -->
-            <div class="timeline-year">2023</div>
-            <div class="timeline-item">
-                <div class="timeline-dot"></div>
-                <div class="timeline-content">
-                    <a href="https://www.sciencedirect.com/science/article/pii/S0038110123002022" target="_blank" class="publication-title">
-                        Charge dynamics of amino acids fingerprints and the effect of density on FinFET-based Electrolyte-gated sensor
-                    </a>
-                    <p>Solid-State Electronics 210, 108789</p>
-                </div>
-            </div>
-            <div class="timeline-item">
-                <div class="timeline-dot"></div>
-                <div class="timeline-content">
-                    <a href="https://ieeexplore.ieee.org/abstract/document/10343913" target="_blank" class="publication-title">
-                        Insights into the Ultra-Steep Subthreshold Slope Gate-all-around Feedback-FET for memory and sensing applications
-                    </a>
-                    <p>2023 IEEE Nanotechnology Materials and Devices Conference (NMDC), 617-620</p>
-                </div>
-            </div>
-            <div class="timeline-item">
-                <div class="timeline-dot"></div>
-                <div class="timeline-content">
-                    <a href="https://ieeexplore.ieee.org/abstract/document/10319578" target="_blank" class="publication-title">
-                        Electrolyte-Gated FET-based Sensing of Immobilized Amphoteric Molecules Including the Variability in Affinity of the Reactive Sites
-                    </a>
-                    <p>2023 International Conference on Simulation of Semiconductor Processes and Devices (SISPAD)</p>
-                </div>
-            </div>
-            <div class="timeline-item">
-                <div class="timeline-dot"></div>
-                <div class="timeline-content">
-                    <a href="https://ieeexplore.ieee.org/abstract/document/10319587" target="_blank" class="publication-title">
-                        Fully Convolutional Generative Machine Learning Method for Accelerating Non-Equilibrium Green’s Function Simulations
-                    </a>
-                    <p>2023 International Conference on Simulation of Semiconductor Processes and Devices (SISPAD)</p>
-                </div>
-            </div>
-            <div class="timeline-item">
-                <div class="timeline-dot"></div>
-                <div class="timeline-content">
-                    <a href="https://ieeexplore.ieee.org/abstract/document/10231075" target="_blank" class="publication-title">
-                        Convolutional machine learning method for accelerating nonequilibrium green’s function simulations in nanosheet transistor
-                    </a>
-                    <p>IEEE Transactions on Electron Devices</p>
-                </div>
-            </div>
-            <div class="timeline-item">
-                <div class="timeline-dot"></div>
-                <div class="timeline-content">
-                    <a href="https://ieeexplore.ieee.org/abstract/document/10281172" target="_blank" class="publication-title">
-                        Novel Detection Methodology of Milk-Oligopeptides Fingerprints using Ion-Sensitive BioFET
-                    </a>
-                    <p>2023 IEEE BioSensors Conference (BioSensors), 1-4</p>
-                </div>
-            </div>
-            <div class="timeline-item">
-                <div class="timeline-dot"></div>
-                <div class="timeline-content">
-                    <a href="https://www.sciencedirect.com/science/article/pii/S003811012200260X" target="_blank" class="publication-title">
-                        Hierarchical simulation of nanosheet field effect transistor: NESS flow
-                    </a>
-                    <p>Solid-State Electronics 199, 108489</p>
-                </div>
-            </div>
+    <!-- Distinctions -->
+    <section id="distinctions" class="mb-5 justified">
+      <h2 class="text-primary">Distinctions</h2>
+      <ul>
+        <li>Graduated Magna cum laude, Ph.D. in Condensed Matter Physics – University of Konstanz (Dec 2019)</li>
+        <li>Certificate of Training, IRTG Nano (SFB 767) – University of Konstanz, Germany (Dec 2019)</li>
+        <li>Best Scientific Poster Prize, 697th WE-Heraeus-Seminar – Physikzentrum Bad Honnef, Germany (Jun 2019)</li>
+        <li>Ranked top 0.4% (120 / 30,000+) in the M.Sc. National Physics Entrance Exam – Iran (Sep 2012)</li>
+      </ul>
+    </section>
 
-            <!-- Timeline for 2022 -->
-            <div class="timeline-year">2022</div>
-            <div class="timeline-item">
-                <div class="timeline-dot"></div>
-                <div class="timeline-content">
-                    <a href="https://www.sciencedirect.com/science/article/pii/S0038110122001113" target="_blank" class="publication-title">
-                        Statistical device simulations of III-V nanowire resonant tunneling diodes as physical unclonable functions source
-                    </a>
-                    <p>Solid-State Electronics 194, 108339</p>
-                </div>
-            </div>
+    <!-- Certifications -->
+    <section id="certifications" class="mb-5">
+      <h2 class="text-primary">Certifications</h2>
+      <ul>
+        <li><strong>Project Management: Professional Certificate (<a href="https://www.coursera.org/account/accomplishments/specialization/certificate/2PC29FHGRRGC" target="_blank" rel="noopener">Google</a>)</strong> — Agile/Waterfall, Gantt charts, project lifecycle, Scrum, Kanban, WBS, budgeting, scheduling, RACI, stakeholder coordination</li>
+        <li><strong>IBM Quantum (Qiskit)</strong>: <a href="https://www.credly.com/badges/cade8cfa-336c-4987-a7b2-2983bc4243b3/public_url" target="_blank" rel="noopener">Variational Algorithm Design</a>, <a href="https://www.credly.com/badges/ae892615-5336-4a68-be96-dd48b6a69155/public_url" target="_blank" rel="noopener">Quantum Algorithms</a>, <a href="https://www.credly.com/badges/c096b5ba-f161-4da1-8ba8-172087dee6d1/linked_in_profile" target="_blank" rel="noopener">Quantum Information</a></li>
+        <li><strong>Proficiency in PennyLane (<a href="https://pennylane.ai/profile/AliRezaei?certificate=introduction-to-pennylane" target="_blank" rel="noopener">pennyLane.ai</a>)</strong> — Basics of quantum programming using PennyLane and hybrid models</li>
+        <li><strong>Amazon Braket Quantum Application Development</strong> (AWS Skill Builder)</li>
+        <li><strong>Machine Learning</strong> (<a href="https://www.coursera.org/account/accomplishments/verify/URRY2UJ3RXLM" target="_blank" rel="noopener">Stanford University</a>): Supervised learning (regression, neural networks, SVMs), unsupervised learning (K-means, PCA, anomaly detection), recommender systems, large-scale ML</li>
+        <li><strong>Advanced Data Science with IBM Specialization</strong>: <a href="https://www.credly.com/badges/a0d62ad3-370e-41c6-8b13-d91184e720ad/public_url" target="_blank" rel="noopener">Scalable Data Science,</a>, <a href="https://www.credly.com/badges/c2be20e7-e85a-47db-924e-ddfadc0d3aa2/public_url" target="_blank" rel="noopener">Advanced Machine Learning and Signal Processing</a>, <a href="https://www.credly.com/badges/7c4cc45d-166a-4e28-91f7-00afeb0cc890/public_url" target="_blank" rel="noopener">Applied AI with Deep Learning</a></li>
+        <li><strong>Data Science Professional Certificate</strong> (<a href="https://www.credly.com/badges/a15cd94a-8271-4a6c-9611-33232dea9e92/linked_in_profile" target="_blank" rel="noopener">IBM</a>)</li>
+        <li><strong>Other:</strong> SQL for Data Science (<a href="https://www.coursera.org/account/accomplishments/verify/5SSQXKFGTSGB" target="_blank" rel="noopener">UC Davis</a>), Object-Oriented Data Structures in C++ (<a href="https://www.coursera.org/account/accomplishments/certificate/URZ9VK254GTA" target="_blank" rel="noopener">University of Illinois</a>)</li>
+      </ul>
+    </section>
 
-            <!-- Timeline for 2021 -->
-            <div class="timeline-year">2021</div>
-            <div class="timeline-item">
-                <div class="timeline-dot"></div>
-                <div class="timeline-content">
-                    <a href="https://ieeexplore.ieee.org/abstract/document/9620465" target="_blank" class="publication-title">
-                        Tcad simulation of novel semiconductor devices
-                    </a>
-                    <p>2021 IEEE 14th International Conference on ASIC (ASICON), 1-4</p>
-                </div>
-            </div>
-            <div class="timeline-item">
-                <div class="timeline-dot"></div>
-                <div class="timeline-content">
-                    <a href="https://www.mdpi.com/2072-666X/12/6/680" target="_blank" class="publication-title">
-                        Simulation and modeling of novel electronic device architectures with NESS (nano-electronic simulation software): A modular nano TCAD simulation framework
-                    </a>
-                    <p>Micromachines 12 (6), 680</p>
-                </div>
-            </div>
+    <!-- Publications (CONTENT UNCHANGED; only moved to last) -->
+    <section id="publications" class="timeline-section">
+      <h2 class="text-primary mb-4">Publications</h2>
 
-            <!-- Timeline for 2020 -->
-            <div class="timeline-year">2020</div>
-            <div class="timeline-item">
-                <div class="timeline-dot"></div>
-                <div class="timeline-content">
-                    <a href="https://eprints.gla.ac.uk/227769" target="_blank" class="publication-title">
-                        Nano-Electronic Simulation Software (NESS): A Novel Open-Source TCAD Simulation Environment
-                    </a>
-                    <p>Journal of Microelectronic Manufacturing 3 (4), 20030407</p>
-                </div>
-            </div>
-            <div class="timeline-item">
-                <div class="timeline-dot"></div>
-                <div class="timeline-content">
-                    <a href="https://journals.aps.org/prresearch/abstract/10.1103/PhysRevResearch.2.033336" target="_blank" class="publication-title">
-                        Phase-controlled spin and charge currents in a superconductor-ferromagnet hybrid
-                    </a>
-                    <p>Physical Review Research 2 (3), 033336</p>
-                </div>
-            </div>
-            <!-- Timeline for 2018 -->
-            <div class="timeline-year">2018</div>
-            <div class="timeline-item">
-                <div class="timeline-dot"></div>
-                <div class="timeline-content">
-                    <a href="https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.121.247702" target="_blank" class="publication-title">
-                        Spin splitting induced in a superconductor by an antiferromagnetic insulator
-                    </a>
-                    <p>Physical Review Letters 121 (24), 247702</p>
-                </div>
-            </div>
-            <div class="timeline-item">
-                <div class="timeline-dot"></div>
-                <div class="timeline-content">
-                    <a href="https://iopscience.iop.org/article/10.1088/1367-2630/aad2a3/meta" target="_blank" class="publication-title">
-                        Spin-flip enhanced thermoelectricity in superconductor-ferromagnet bilayers
-                    </a>
-                    <p>New Journal of Physics 20 (7), 073034</p>
-                </div>
-            </div>
-        </section>
+      <!-- Timeline for 2025 -->
+      <div class="timeline-year">2025</div>
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <a href="https://arxiv.org/abs/2506.09198" target="_blank" class="publication-title">
+            Low-Level and NUMA-Aware Optimization for High-Performance Quantum Simulation
+          </a>
+          <p>arXiv preprint - arXiv.2506.09198 (2025)</p>
+        </div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <a href="https://www.sciencedirect.com/science/article/pii/S0038110125001170" target="_blank" class="publication-title">
+            Mobility and intrinsic performance of silicon-based nanosheet FETs at 3 nm CMOS and beyond
+          </a>
+          <p>Solid-State Electronics 229, 109172 (2025)</p>
+        </div>
+      </div>
+      <div class="timeline-year">2024</div>
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <a href="https://ieeexplore.ieee.org/abstract/document/10764758/" target="_blank" class="publication-title">
+            Analysis of Random Discrete Dopants Embedded Nanowire Resonant Tunnelling Diodes for Generation of Physically Unclonable Functions
+          </a>
+          <p>2024 IEEE Transactions on Nanotechnology, 815-821</p>
+        </div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <a href="https://ieeexplore.ieee.org/document/10733048" target="_blank" class="publication-title">
+            Predictive Simulation of Nanosheet Transistors Including the Impact of Access Resistance
+          </a>
+          <p>2024 International Conference on Simulation of Semiconductor Processes and Devices (SISPAD)</p>
+        </div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <a href="https://ieeexplore.ieee.org/abstract/document/10628880" target="_blank" class="publication-title">
+            Unravelling the Impact of Random Dopant Fluctuations on Si-Based 3nm NSFET: A NEGF Analysis
+          </a>
+          <p>2024 IEEE 24th International Conference on Nanotechnology (NANO), 5-8</p>
+        </div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <a href="https://iopscience.iop.org/article/10.1088/1402-4896/ad56d9/meta" target="_blank" class="publication-title">
+            The study of electron mobility on ultra-scaled silicon nanosheet FET
+          </a>
+          <p>Physica Scripta 99 (7), 075410</p>
+        </div>
+      </div>
 
-      <!-- Awards & Honors -->
-      <section id="awards" class="mb-5">
-          <h2 class="text-primary">Awards & Honors</h2>
-          <ul class="list-group">
-              <li class="list-group-item">Certificate of training in the IRTG Nano (SFB 767), University of Konstanz (Dec 2019)</li>
-              <li class="list-group-item">Best Scientific Poster Prize, 697th WE-Heraeus-Seminar “Superconductivity in Low-Dimensional and Interacting Systems”, Bad Honnef, Germany (Jun 2019)</li>
-              <li class="list-group-item">Ranked 120/30,000+ (top 0.4%) in M.Sc. National Entrance Exam (Condensed Matter Physics), Iran (Sep 2012)</li>
-          </ul>
-      </section>
+      <!-- Timeline for 2023 -->
+      <div class="timeline-year">2023</div>
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <a href="https://www.sciencedirect.com/science/article/pii/S0038110123002022" target="_blank" class="publication-title">
+            Charge dynamics of amino acids fingerprints and the effect of density on FinFET-based Electrolyte-gated sensor
+          </a>
+          <p>Solid-State Electronics 210, 108789</p>
+        </div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <a href="https://ieeexplore.ieee.org/abstract/document/10343913" target="_blank" class="publication-title">
+            Insights into the Ultra-Steep Subthreshold Slope Gate-all-around Feedback-FET for memory and sensing applications
+          </a>
+          <p>2023 IEEE Nanotechnology Materials and Devices Conference (NMDC), 617-620</p>
+        </div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <a href="https://ieeexplore.ieee.org/abstract/document/10319578" target="_blank" class="publication-title">
+            Electrolyte-Gated FET-based Sensing of Immobilized Amphoteric Molecules Including the Variability in Affinity of the Reactive Sites
+          </a>
+          <p>2023 International Conference on Simulation of Semiconductor Processes and Devices (SISPAD)</p>
+        </div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <a href="https://ieeexplore.ieee.org/abstract/document/10319587" target="_blank" class="publication-title">
+            Fully Convolutional Generative Machine Learning Method for Accelerating Non-Equilibrium Green’s Function Simulations
+          </a>
+          <p>2023 International Conference on Simulation of Semiconductor Processes and Devices (SISPAD)</p>
+        </div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <a href="https://ieeexplore.ieee.org/abstract/document/10231075" target="_blank" class="publication-title">
+            Convolutional machine learning method for accelerating nonequilibrium green’s function simulations in nanosheet transistor
+          </a>
+          <p>IEEE Transactions on Electron Devices</p>
+        </div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <a href="https://ieeexplore.ieee.org/abstract/document/10281172" target="_blank" class="publication-title">
+            Novel Detection Methodology of Milk-Oligopeptides Fingerprints using Ion-Sensitive BioFET
+          </a>
+          <p>2023 IEEE BioSensors Conference (BioSensors), 1-4</p>
+        </div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <a href="https://www.sciencedirect.com/science/article/pii/S003811012200260X" target="_blank" class="publication-title">
+            Hierarchical simulation of nanosheet field effect transistor: NESS flow
+          </a>
+          <p>Solid-State Electronics 199, 108489</p>
+        </div>
+      </div>
 
-      <!-- Certifications -->
-      <section id="certifications" class="mb-5">
-          <h2 class="text-primary">Certifications</h2>
-          <ul class="list-group">
-              <li class="list-group-item">Google Project Management: Professional Certificate — <a href="https://www.coursera.org/account/accomplishments/specialization/2PC29FHGRRGC">Google</a></li>
-              <li class="list-group-item">Proficiency in the basics of PennyLane — <a href="https://pennylane.ai/profile/AliRezaei/certificate/introduction-to-pennylane">pennylane.ai</a></li>
-              <li class="list-group-item">Amazon Braket Quantum Application Development — aws Skill Builder</li>
-              <li class="list-group-item">IBM Qunatum (Qiskit) 
-                  <ul class="mt-1">
-                      <li><a href="https://www.credly.com/earner/earned/badge/cade8cfa-336c-4987-a7b2-2983bc4243b3">Variational Algorithm Design</a></li>
-                      <li><a href="https://www.credly.com/earner/earned/badge/ae892615-5336-4a68-be96-dd48b6a69155">Quantum Algorithms</a></li>
-                      <li><a href="https://www.credly.com/badges/c096b5ba-f161-4da1-8ba8-172087dee6d1/linked_in_profile">Quantum Information</a></li>
-                  </ul>
-              </li>
-              <li class="list-group-item">Advanced Data Science with IBM Specialization
-                  <ul class="mt-1">
-                      <li><a href="https://www.credly.com/badges/a0d62ad3-370e-41c6-8b13-d91184e720ad/public_url">Fundamentals of Scalable Data Science</a></li>
-                      <li><a href="https://www.credly.com/badges/c2be20e7-e85a-47db-924e-ddfadc0d3aa2/public_url">Advanced Machine Learning and Signal Processing</a></li>
-                      <li><a href="https://www.credly.com/badges/7c4cc45d-166a-4e28-91f7-00afeb0cc890/public_url">Applied AI with Deep Learning</a></li>
-                  </ul>
-              </li>
-              <li class="list-group-item">IBM Data Science Professional Certificate — <a href="https://www.credly.com/badges/a15cd94a-8271-4a6c-9611-33232dea9e92/linked_in_profile">Data Science Orientation</a></li>
-              <li class="list-group-item">Machine Learning — <a href="https://www.coursera.org/account/accomplishments/verify/URRY2UJ3RXLM">Stanford University </a></li>
-              <li class="list-group-item">SQL for Data Science — <a href="https://www.coursera.org/account/accomplishments/verify/5SSQXKFGTSGB">UC Davis </a></li>
-              <li class="list-group-item">Object-Oriented Data Structures in C++ — <a href="https://www.coursera.org/account/accomplishments/certificate/URZ9VK254GTA">University of Illinois </a></li>
-              <li class="list-group-item">Workshop on Scientific Presenting for Physicists (University of Konstanz)</li>
-          </ul>
-      </section>
+      <!-- Timeline for 2022 -->
+      <div class="timeline-year">2022</div>
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <a href="https://www.sciencedirect.com/science/article/pii/S0038110122001113" target="_blank" class="publication-title">
+            Statistical device simulations of III-V nanowire resonant tunneling diodes as physical unclonable functions source
+          </a>
+          <p>Solid-State Electronics 194, 108339</p>
+        </div>
+      </div>
 
-      <!-- References -->
-      <section id="references" class="mb-5">
-          <h2 class="text-primary">References</h2>
-          <p>Available upon request.</p>
-      </section>
+      <!-- Timeline for 2021 -->
+      <div class="timeline-year">2021</div>
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <a href="https://ieeexplore.ieee.org/abstract/document/9620465" target="_blank" class="publication-title">
+            Tcad simulation of novel semiconductor devices
+          </a>
+          <p>2021 IEEE 14th International Conference on ASIC (ASICON), 1-4</p>
+        </div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <a href="https://www.mdpi.com/2072-666X/12/6/680" target="_blank" class="publication-title">
+            Simulation and modeling of novel electronic device architectures with NESS (nano-electronic simulation software): A modular nano TCAD simulation framework
+          </a>
+          <p>Micromachines 12 (6), 680</p>
+        </div>
+      </div>
 
-      <!-- Footer -->
-      <footer class="text-center bg-light p-4">
-          <p>Contact: <a href="mailto:ali.rezaei@ed.ac.uk">ali.rezaei@ed.ac.uk</a></p>
-      </footer>
+      <!-- Timeline for 2020 -->
+      <div class="timeline-year">2020</div>
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <a href="https://eprints.gla.ac.uk/227769" target="_blank" class="publication-title">
+            Nano-Electronic Simulation Software (NESS): A Novel Open-Source TCAD Simulation Environment
+          </a>
+          <p>Journal of Microelectronic Manufacturing 3 (4), 20030407</p>
+        </div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <a href="https://journals.aps.org/prresearch/abstract/10.1103/PhysRevResearch.2.033336" target="_blank" class="publication-title">
+            Phase-controlled spin and charge currents in a superconductor-ferromagnet hybrid
+          </a>
+          <p>Physical Review Research 2 (3), 033336</p>
+        </div>
+      </div>
+      <!-- Timeline for 2018 -->
+      <div class="timeline-year">2018</div>
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <a href="https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.121.247702" target="_blank" class="publication-title">
+            Spin splitting induced in a superconductor by an antiferromagnetic insulator
+          </a>
+          <p>Physical Review Letters 121 (24), 247702</p>
+        </div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <a href="https://iopscience.iop.org/article/10.1088/1367-2630/aad2a3/meta" target="_blank" class="publication-title">
+            Spin-flip enhanced thermoelectricity in superconductor-ferromagnet bilayers
+          </a>
+          <p>New Journal of Physics 20 (7), 073034</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="text-center bg-light p-4 mt-5">
+      <p>Contact: <a href="mailto:ali.rezaei@ed.ac.uk">ali.rezaei@ed.ac.uk</a></p>
+    </footer>
 
   </div>
 
@@ -422,4 +413,3 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
-
